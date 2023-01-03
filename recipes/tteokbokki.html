@@ -6,60 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Recipes | The Odin Project</title>
 
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-
-        div.nav{
-            padding: 20px;
-        }
-
-        ul.nav{
-            list-style-type: none;
-            margin: 0 15px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        ul.nav > li{
-            display: inline-block;
-            flex: 0 1 auto;
-            justify-content: center;
-            padding: 15px;
-            font-size: larger;
-            margin-bottom: 50px;
-            text-align: center;
-            margin-right: 25px;
-        }
-
-        a{
-            text-decoration: none;
-        }
-
-        h1{
-            display: flex;
-            justify-content: center;
-            margin: 50px 0;
-        }
-
-        div.img{
-            display: flex;
-            justify-content: center;
-        }
-
-        img{
-            max-width: 100%;
-            height: 500px;
-            object-fit: cover;
-        }
-
-        div.home{
-            display: flex;
-            justify-content: end;
-            margin-bottom: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 
     <div class="nav">
         <ul class="nav">
@@ -75,35 +22,37 @@
         <a href="../index.html">Back</a>
     </div>
 
-    <h1>Tteokbokki (Korean Spicy Rice Cakes)</h1>
+    <div class="container">
+        <h1>Tteokbokki (Korean Spicy Rice Cakes)</h1>
 
-    <div class="img">
-        <img src="https://images.deliveryhero.io/image/foodpanda/recipes/tteokbokki-recipe-1.jpg" alt="tteokbokki" width="800px">
+        <div class="img">
+            <img src="https://images.deliveryhero.io/image/foodpanda/recipes/tteokbokki-recipe-1.jpg" alt="tteokbokki">
+        </div>
+
+        <h3>Description</h3>
+        <p class="desp">It is made with rice cakes (garaetteok, cylinder-shaped rice cake), fish cakes, boiled egg, and seasoned with chile paste. The rice cakes are chewy and tender. It looks super spicy and, originally, it is! But you can control the amount of chile paste.</p>
+        <p class="desp additional">You might be able to find it easily at food vendors on the street of Korea. There are always delicious dukbokki boiling and ready to go. Garnish with sesame seeds if you like.</p>
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 pack of Korean rice cake</li>
+            <li>3 cups water</li>
+            <li>2 dried anchovies, or more to taste</li>
+            <li>3 tablespoons chile paste</li>
+            <li>2 tablespoons white sugar</li>
+            <li>1 tablespoon soy sauce</li>
+            <li>1 tablespoon corn syrup</li>
+            <li>2 Korean fish cakes, sliced</li>
+            <li>&frac12; onion, thickly sliced</li>
+            <li>1 spring onion, thickly sliced</li>
+        </ul>
+
+        <h3>Steps</h3>
+        <ol>
+            <li>Combine water and anchovies in a saucepan and bring to a boil. Cook for 10 minutes. Remove anchovies.</li>
+            <li>Combine chile paste, sugar, soy sauce, and corn syrup in a bowl to make the sauce.</li>
+            <li>Add rice cakes and onion to the anchovy water in the saucepan. Add sauce. Bring to a boil and cook for 5 minutes, stirring occasionally. Add spring onion and boil 3 minutes more. Don't boil the rice cakes for too long, otherwise they will be mushy.</li>
+        </ol>
     </div>
-
-    <h3>Description</h3>
-    <p>It is made with rice cakes (garaetteok, cylinder-shaped rice cake), fish cakes, boiled egg, and seasoned with chile paste. The rice cakes are chewy and tender. It looks super spicy and, originally, it is! But you can control the amount of chile paste.</p>
-    <p>You might be able to find it easily at food vendors on the street of Korea. There are always delicious dukbokki boiling and ready to go. Garnish with sesame seeds if you like.</p>
-
-    <h3>Ingredients</h3>
-    <ul>
-        <li>1 pack of Korean rice cake</li>
-        <li>3 cups water</li>
-        <li>2 dried anchovies, or more to taste</li>
-        <li>3 tablespoons chile paste</li>
-        <li>2 tablespoons white sugar</li>
-        <li>1 tablespoon soy sauce</li>
-        <li>1 tablespoon corn syrup</li>
-        <li>2 Korean fish cakes, sliced</li>
-        <li>&frac12; onion, thickly sliced</li>
-        <li>1 spring onion, thickly sliced</li>
-    </ul>
-
-    <h3>Steps</h3>
-    <ol>
-        <li>Combine water and anchovies in a saucepan and bring to a boil. Cook for 10 minutes. Remove anchovies.</li>
-        <li>Combine chile paste, sugar, soy sauce, and corn syrup in a bowl to make the sauce.</li>
-        <li>Add rice cakes and onion to the anchovy water in the saucepan. Add sauce. Bring to a boil and cook for 5 minutes, stirring occasionally. Add spring onion and boil 3 minutes more. Don't boil the rice cakes for too long, otherwise they will be mushy.</li>
-    </ol>
 </body>
 </html>

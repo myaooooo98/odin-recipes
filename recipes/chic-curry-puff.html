@@ -6,60 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Recipes | The Odin Project</title>
 
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-
-        div.nav{
-            padding: 20px;
-        }
-
-        ul.nav{
-            list-style-type: none;
-            margin: 0 15px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        ul.nav > li{
-            display: inline-block;
-            flex: 0 1 auto;
-            justify-content: center;
-            padding: 15px;
-            font-size: larger;
-            margin-bottom: 50px;
-            text-align: center;
-            margin-right: 25px;
-        }
-
-        a{
-            text-decoration: none;
-        }
-
-        h1{
-            display: flex;
-            justify-content: center;
-            margin: 50px 0;
-        }
-
-        div.img{
-            display: flex;
-            justify-content: center;
-        }
-
-        img{
-            max-width: 100%;
-            height: 500px;
-            object-fit: cover;
-        }
-
-        div.home{
-            display: flex;
-            justify-content: end;
-            margin-bottom: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 
     <div class="nav">
         <ul class="nav">
@@ -75,38 +22,40 @@
         <a href="../index.html">Back</a>
     </div>
 
-    <h1>Chicken Curry Puffs</h1>
+    <div class="container">
+        <h1>Chicken Curry Puffs</h1>
 
-    <div class="img">
-        <img src="https://aisyahmart.com.my/wp-content/uploads/2021/01/Karipap-Kentang-2.jpg" alt="Chicken Curry Puffs" width="800px">
+        <div class="img">
+            <img src="https://aisyahmart.com.my/wp-content/uploads/2021/01/Karipap-Kentang-2.jpg" alt="Chicken Curry Puffs">
+        </div>
+
+        <h3>Description</h3>
+        <p class="desp">Chicken curry puffs have filling made with curry flavour chicken and potato. These oven-baked beauties are great as appetizers or a snack. They're spicy and savory, with a subtle coconut milk base. In Malaysia, they are traditionally deep fried. But here's a modern version. You can wrap them in different ways - as rolls, sealed pockets or semi-open bundles.</p>
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>&frac12; teaspoon ground turmeric</li>
+            <li>&frac12; teaspoon ground cumin</li>
+            <li>2 teaspoons curry powder</li>
+            <li>&frac12; cup coconut milk, or more as needed</li>
+            <li>2 red onions, chopped</li>
+            <li>1 stalk lemon grass, thinly sliced</li>
+            <li>1 red chile pepper, roughly chopped</li>
+            <li>1 large russet potato, diced</li>
+            <li>&frac34; pound skinless, boneless chicken breast, cut in bite-sized pieces</li>
+            <li>1 teaspoon salt</li>
+            <li>1 (17.25 ounce) package frozen puff pastry, thawed</li>
+        </ul>
+
+        <h3>Steps</h3>
+        <ol>
+            <li>Heat vegetable oil in a saucepan over medium-low heat. Stir in coriander, turmeric, cumin, and curry powder. Cook a few seconds until fragrant. Pour in coconut milk, onions, lemon grass, and red pepper; cook until the vegetables are tender, about 7 minutes. </li>
+            <li>Stir in potato and continue cooking for 12 minutes, adding more coconut milk if the mixture becomes too dry. Stir in the chicken, then season with salt. Cook and stir until chicken and potato has absorbed most of the liquid, then spread mixture on a plate to cool.</li>
+            <li>Preheat an oven to 375 degrees F (190 degrees C). Line 2 baking sheets with parchment paper.</li>
+            <li>Unfold puff pastry and cut each sheet into circle that have the size of your palm. Place heaping spoonfuls of the filling in the center of each circle.</li>
+            <li>Fold the dough into a semi-circle. Seal by pressing and creasing the edges together. Repeat the process for other cicles</li>
+            <li>Place each pastry on the baking sheet, about 1 inch apart. Bake in the preheated oven until golden brown, 22 to 27 minutes. Cool on the baking sheet for 10 minutes before removing to cool on a wire rack. Serve warm or at room temperature.</li>
+        </ol>
     </div>
-
-    <h3>Description</h3>
-    <p>Chicken curry puffs have filling made with curry flavour chicken and potato. These oven-baked beauties are great as appetizers or a snack. They're spicy and savory, with a subtle coconut milk base. In Malaysia, they are traditionally deep fried. But here's a modern version. You can wrap them in different ways - as rolls, sealed pockets or semi-open bundles.</p>
-
-    <h3>Ingredients</h3>
-    <ul>
-        <li>&frac12; teaspoon ground turmeric</li>
-        <li>&frac12; teaspoon ground cumin</li>
-        <li>2 teaspoons curry powder</li>
-        <li>&frac12; cup coconut milk, or more as needed</li>
-        <li>2 red onions, chopped</li>
-        <li>1 stalk lemon grass, thinly sliced</li>
-        <li>1 red chile pepper, roughly chopped</li>
-        <li>1 large russet potato, diced</li>
-        <li>&frac34; pound skinless, boneless chicken breast, cut in bite-sized pieces</li>
-        <li>1 teaspoon salt</li>
-        <li>1 (17.25 ounce) package frozen puff pastry, thawed</li>
-    </ul>
-
-    <h3>Steps</h3>
-    <ol>
-        <li>Heat vegetable oil in a saucepan over medium-low heat. Stir in coriander, turmeric, cumin, and curry powder. Cook a few seconds until fragrant. Pour in coconut milk, onions, lemon grass, and red pepper; cook until the vegetables are tender, about 7 minutes. </li>
-        <li>Stir in potato and continue cooking for 12 minutes, adding more coconut milk if the mixture becomes too dry. Stir in the chicken, then season with salt. Cook and stir until chicken and potato has absorbed most of the liquid, then spread mixture on a plate to cool.</li>
-        <li>Preheat an oven to 375 degrees F (190 degrees C). Line 2 baking sheets with parchment paper.</li>
-        <li>Unfold puff pastry and cut each sheet into circle that have the size of your palm. Place heaping spoonfuls of the filling in the center of each circle.</li>
-        <li>Fold the dough into a semi-circle. Seal by pressing and creasing the edges together. Repeat the process for other cicles</li>
-        <li>Place each pastry on the baking sheet, about 1 inch apart. Bake in the preheated oven until golden brown, 22 to 27 minutes. Cool on the baking sheet for 10 minutes before removing to cool on a wire rack. Serve warm or at room temperature.</li>
-    </ol>
 </body>
 </html>
